@@ -7,9 +7,11 @@
 #define WIFI_SSID "Wokwi-GUEST"
 #define WIFI_PASSWORD ""
 
-const char* serverUrl = "https://5e2b-179-6-2-239.ngrok-free.app/api/v1/location";
+//const char* serverUrl = "https://a2ce-179-6-2-239.ngrok-free.app/api/v1/location";
 //const char* serverUrl = "http://127.0.0.1:5000/api/v1/location";
-//const char* serverUrl = "http://192.168.1.105/api/v1/location";
+//const char* serverUrl = "http://192.168.68.124:5000/api/v1/location";
+//const char* serverUrl = "http://host.wokwi.internal:5000/api/v1/location";
+const char* serverUrl = "http://host.wokwi.internal:50/api/v1/location";
 const char* apiKey = "test-api-key-123";
 const char* deviceId = "gps-collar-001";
 
